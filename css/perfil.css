@@ -1,0 +1,151 @@
+body {
+    background-color: #f3f4f6;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1.5rem;;
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.profile-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #1DA1F2;
+}
+
+.follow-button {
+    background-color: #1DA1F2;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+}
+
+.unfollow-button {
+    background-color: #e3342f;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+}
+
+.follow-button:hover {
+    background-color: #0464a0;
+}
+
+.unfollow-button:hover {
+    background-color: #cc1f1a;
+}
+
+.update-description-container textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: 1em; 
+    resize: vertical; 
+}
+
+.update-description-button {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 1em; 
+    transition: background-color 0.3s ease; 
+}
+
+.update-description-button:hover {
+    background-color: #2b772f; 
+}
+
+.update-description-container form > * {
+    margin-top: 10px; 
+}
+
+.extra-buttons {
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+    text-align: center;
+    gap: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.following-button, 
+.followers-button {
+    background-color: #1DA1F2;
+    color:inherit;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+    text-align: center;
+    gap: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.following-button:hover, 
+.followers-button:hover {
+    background-color: #0464a0;
+}
+
+.tweets-container {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+}
+
+.tweet {
+    border-bottom: 1px solid #d1d5db;
+    padding: 1rem 0;
+}
+
+.back-button {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+.button-homepage {
+    background-color: #1DA1F2;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+}
+
+.button-homepage:hover {
+    background-color: #0464a0;
+}
+
+.button-logout {
+    background-color: #dc2626;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+}
+
+.button-logout:hover {
+    background-color: #a50e0e;
+}
