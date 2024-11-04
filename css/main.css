@@ -1,0 +1,190 @@
+body {
+    background-color: #f3f4f6;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 1rem;
+    display: flex;
+    gap: 200px;
+}
+
+.user-info-container {
+    display: flex;
+}
+
+.user-info {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.user-info h1 {
+    color: #1DA1F2;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.user-info img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: -30px;
+    margin-top: -10px;
+}
+
+
+.user-actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.logout-button,
+.profile-button {
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #dc2626;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #a50e0e; 
+}
+
+.profile-button {
+    background-color: #1DA1F2;
+}
+
+.profile-button:hover {
+    background-color: #0464a0; 
+}
+
+.tweets-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px 200px;
+    margin-bottom: 1.5rem;
+    align-items: right;
+}
+
+.tweet {
+    border-bottom: 1px solid #d1d5db;
+    padding: 1rem 0;
+}
+
+.tweet-form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 1.5rem;
+}
+
+.tweet-form h2 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+    font-family: Arial, sans-serif; 
+}
+
+.submit-button {
+    background-color: #1DA1F2;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    display: block;
+    width: fit-content;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #0464a0; 
+}
+
+#charCount {
+    color: #6b7280;
+    font-size: 0.875rem;
+}
+
+.tweet-options {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.option-button {
+    background-color: #1DA1F2;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.option-button:hover {
+    background-color: #0464a0; 
+}
+
+.tweets-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.tweet {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.tweet-author {
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
+.tweet-date {
+    color: #6b7280;
+    font-size: 0.875rem;
+}
+
+.error-text {
+    color: red;
+    font-weight: bold;
+}
+
+.option-button {
+    background-color: #1DA1F2; 
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.option-button:hover {
+    background-color: #0464a0; 
+}
+
+.option-button.active {
+    background-color: #0464a0; 
+}
