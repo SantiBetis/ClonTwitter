@@ -1,5 +1,5 @@
-# El trabajo consistirá en hacer una aplicación clon de Twitter, al estilo del
-alumno. El trabajo deberá cumplir las siguientes condiciones:
+# El trabajo consistirá en hacer una aplicación clon de Twitter, al estilo del alumno.
+El trabajo deberá cumplir las siguientes condiciones:
 1) Una página index con un formulario de login. Es importante que el
 usuario no tenga acceso a nada al no estar logueado, así como un
 enlace a la página de registro en caso de no estar registrado.
